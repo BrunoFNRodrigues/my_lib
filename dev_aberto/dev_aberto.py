@@ -1,5 +1,5 @@
+from email.utils import format_datetime
 import requests
-
 
 def hello():
     c = requests.get('https://api.github.com/repos/insper/dev-aberto/commits')
